@@ -17,6 +17,7 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    
     <link
       href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap"
       rel="stylesheet"
@@ -24,9 +25,11 @@
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
   </head>
-
   <body>
     <header class="p-5 mb-4">
+      <h2 class="today"><span class="material-symbols-outlined">
+        today
+        </span> <span id="datetime"></span></h2>
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
@@ -47,14 +50,16 @@
       <div id="past">
         <div id="hour-9" class="row time-block past">
             
-          <div class="col-2 col-md-1 hour text-center py-3"> 9AM</div>
+          <div class="col-2 col-md-1 hour text-center py-3"> 9AM <span class="material-symbols-outlined">
+            schedule
+            </span></div>
           <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
           <button class="btn saveBtn col-2 col-md-1" aria-label="save">
             <i class="fas fa-save" aria-hidden="true"></i>
           </button>
         </div>
         <div id="hour-10" class="row time-block past">
-          <div class="col-2 col-md-1 hour text-center py-3">10AM</div>
+          <div class="col-2 col-md-1 hour text-center py-3">10AM </div>
           <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
           <button class="btn saveBtn col-2 col-md-1" aria-label="save">
             <i class="fas fa-save" aria-hidden="true"></i>
@@ -72,7 +77,9 @@
     <div id="present">
       <!-- Example of a present time block. The "present" class adds a red background color. -->
       <div id="hour-10" class="row time-block present">
-        <div class="col-2 col-md-1 hour text-center py-3">12PM</div>
+        <div class="col-2 col-md-1 hour text-center py-3">12PM <span class="material-symbols-outlined">
+          schedule
+          </span></div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
         <button class="btn saveBtn col-2 col-md-1" aria-label="save">
           <i class="fas fa-save" aria-hidden="true"></i>
@@ -83,7 +90,9 @@
       <div id="future">
       <!-- Example of a future time block. The "future" class adds a green background color. -->
       <div id="hour-01" class="row time-block future">
-        <div class="col-2 col-md-1 hour text-center py-3">1PM</div>
+        <div class="col-2 col-md-1 hour text-center py-3">1PM <span class="material-symbols-outlined">
+          schedule
+          </span></div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
         <button class="btn saveBtn col-2 col-md-1" aria-label="save">
           <i class="fas fa-save" aria-hidden="true"></i>

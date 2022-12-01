@@ -29,13 +29,16 @@ saveBtn.addEventListener("click", e => {
 
 var value = userInput.value;
 
-localStorage.setItem("to do", value);
+localStorage.setItem(saveBtn, value);
 
-var myDate = newDate (today);
+//below code will use toLocaleDateString() method to return string date in user timezone 
+var myDate = new Date();
 
-console.log(myDate);
-  // TODONE: Add a listener for click events on the save button. 
-  // the button saves into local storage but not the value of what the user types 
+document.write(myDate.toLocaleDateString());
+document.write(myDate);
+
+document.getElementById("datetime").innerHTML = myDate.toLocaleDateString();
+
   
   // TODO: 
   // This code should use the id in the containing time-block as a key to save the user input in
