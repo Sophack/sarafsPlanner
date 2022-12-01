@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300&family=Square+Peg&family=Updock&display=swap');
+
+body {
+    font-family: 'Dancing Script', cursive;
+    font-size: 16px;
+  }
+  
+  .saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #a6d1da;
+    color: white;
+  }
+  
+  #saveBtn i:hover {
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  
+  textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid black;
+    padding: 10px;
+    border: ;
+
+  }
+  
+  .description {
+    white-space: pre-wrap;
+  
+  }
+  
+  .time-block {
+    border-radius: 15px;
+  }
+  
+  .row {
+    border-top: 1px solid white;
+  }
+  
+  .hour {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px dashed #000000;
+
+  }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+  
+  .past {
+    background-color: #6785d5;
+    color: white;
+  }
+  
+  .present {
+    background-color: #ec5149;
+    color: white;
+  }
+  
+  .future {
+    background-color: #7fd375;
+    color: white;
+  }
+  
+  
