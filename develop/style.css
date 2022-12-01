@@ -11,7 +11,7 @@ body {
     'FILL' 0,
     'wght' 400,
     'GRAD' 0,
-    'opsz' 48
+    'opsz' 48;
 
     }
 
@@ -43,7 +43,7 @@ body {
     color: #000000;
     border-left: 1px solid black;
     padding: 10px;
-    border: ;
+
 
   }
   .description {
@@ -65,15 +65,6 @@ body {
     border-top: 1px dashed #000000;
 
   }
-
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
-}
-
   
   .past {
     background-color: #6785d5;
