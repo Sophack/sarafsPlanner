@@ -12,7 +12,7 @@ When the user inputs an event by typing it into the text space, they are able to
 ## Screenshots 
 ![image](https://user-images.githubusercontent.com/114966651/206434922-f4ec98cb-7cc5-4410-8404-e03536075fce.png)
 
-     This is the landing page, it shows the app in its entirety. It displays the user's current date next to the heading. 
+This is the landing page, it shows the app in its entirety. It displays the user's current date next to the heading. 
      
 ![image](https://user-images.githubusercontent.com/114966651/206434106-4828e978-5b53-4827-ac4a-dc35adfe6204.png)
 
