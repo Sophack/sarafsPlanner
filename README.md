@@ -24,5 +24,14 @@ This is the landing page, it shows the app in its entirety. It displays the user
 
 ## Git repo link 
 
+There are two repositories for this application; https://github.com/Sophack/sarafsPlanner & https://github.com/Sophack/planner
+
+The first repo is the one I originally started with, it has all the commit history. There were issues with deployment that I was not able to resolve so I made a new repo & it was successful. The file path was too complex and once I took the CSS and Javascript files out of the sub folder the deployment went through. 
+
+succesful repo link: https://github.com/Sophack/planner
+
 ## Deployed application link
 
+The deployed application is under another repo as I was not able to get deployment to work under this one. 
+
+https://sophack.github.io/planner/
