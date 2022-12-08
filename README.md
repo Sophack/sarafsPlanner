@@ -10,9 +10,16 @@ When the user inputs an event by typing it into the text space, they are able to
 
 
 ## Screenshots 
-     "dateToday.png" shows the landing page that display's the user's current date next to a calendar icon. 
+     ![image](https://user-images.githubusercontent.com/114966651/206432963-1b36f71d-922f-41c1-b18a-ac4be0e043cc.png) 
+     This is the landing page, it shows the app in its entirety. It displays the user's current date next to the heading. 
+     
+![image](https://user-images.githubusercontent.com/114966651/206434106-4828e978-5b53-4827-ac4a-dc35adfe6204.png)
 
-    "past.png", "present.png" & "future.png" are examples of what the past, present & future time slots look like. There is a clock icon next to the time, a textarea for the userinput & a save button to save the content into local storage to view later. 
+![image](https://user-images.githubusercontent.com/114966651/206434317-92ed5c85-48cb-470a-980b-a1a8d28a4c4c.png)
+
+![image](https://user-images.githubusercontent.com/114966651/206434277-7d5f4220-5eb2-4afd-b297-9158092bad36.png)
+
+   The images above correspond to the "past.png", "present.png" & "future.png" files in the assets folder. They are examples of what the past, present & future time slots look like. There is a clock icon next to the time, a textarea for the userinput & a save button to save the content into local storage to view later. 
 
 ## Git repo link 
 
